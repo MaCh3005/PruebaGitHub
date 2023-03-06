@@ -23,13 +23,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmK-WK-68G">
-                                <rect key="frame" x="149" y="422" width="95" height="35"/>
+                                <rect key="frame" x="135" y="422" width="123" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Presione "/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ocultar texto"/>
                                 <connections>
                                     <action selector="boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTS-o1-FW9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV1-3T-uBu">
+                                <rect key="frame" x="134" y="465" width="126" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Mostrar texto"/>
+                                <connections>
+                                    <action selector="boton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ndo-Vk-98K"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,7 +47,6 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
-                        <outlet property="boton" destination="8bC-Xf-vdC" id="CtI-G5-UGz"/>
                         <outlet property="label" destination="Ft8-sK-Ve5" id="Lq8-8U-Ud9"/>
                     </connections>
                 </viewController>

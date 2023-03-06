@@ -16,9 +16,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
     @IBAction func boton(_ sender: Any) {
         label.isHidden = true
     }
+    
+    @IBAction func boton2(_ sender: Any) {
+        label.isHidden = false
+    }
+    
 }
 
